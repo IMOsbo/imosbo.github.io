@@ -1,456 +1,91 @@
 <!DOCTYPE html>
-<html class="dark">
+
+<!--
+  To change the theme, change the class on the html tag below to one of:
+  - theme-auto: Automatically switches based on user's system preferences
+  - theme-light: Forces light theme
+  - theme-dark: Forces dark theme
+-->
+
+<html class="theme-auto" lang="en"> <!-- Update`class="theme-auto" with your preference -->
 
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
+  <title>IMOsbo</title>
+  <link rel="icon" type="image/x-icon" href="/images/avatar.png"> <!-- Update this with your own favicon -->
+
+  <!-- Meta Description - Write a description (150-160 characters recommended) -->
+  <meta name="description" content="Replace this with your own, this appears in search results and when sharing.">
+
+  <!-- Keywords -->
+  <meta name="keywords" content="your name, industry, and specialties">
+
+  <!-- Canonical URL - Helps prevent duplicate content issues -->
+  <meta rel="canonical" href="https://yourwebsite.com">
+
+  <!-- Author Information -->
+  <meta name="author" content="Your Name">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/brands.css">
+
 </head>
 
 <body>
+
   <div class="container">
-    <section class="hero is-fullheight">
-      <div class="hero-body columns is-vcentered is-centered">
-        <div class="column is-half">
-          <h1 class="title">Hi, I'm Isaiah! 👋</h1>
-          <h2 class="subtitle">Data Science Graduate Student @ MTSU</h2>
-          <hr>
-          <p>Blue Raider. Runner. Reader.</p>
-        </div>
-        <div class="column ">
-          <center>
-            <img src="images/headshot.png">
-          </center>
-        </div>
-      </div>
-    </section>
-  </div>
+    <div class="column">
+
+      <!--
+              By default, the Avatar is rounded. Use the following:
+              - avatar--rounded: Automatically rounds the image
+              - avatar--soft: Slightly rounds the image
+              - avatar--none: Removes any rounding
+
+              Be sure to replace the src with your own image path and update the alt text
+            -->
+      <center><img src="images/headshot.png" alt="headshot of IMOsbo" height="300" style="margin: 50px"></center>
 
 
+      <!-- Replace with your name or brand -->
+      <h1>
+        <div>Hi, I'm Isaiah! 👋</div>
+      </h1>
 
-  <section class="section container content is-medium">
-    <h2 class="title has-text-centered">About me!</h2>
-
-
-    <p>Hello! I'm Isaiah. As a current master's student at Middle Tennessee State University, I love exploring and
-      solving problems through statistics and programming. Whether it's finetuning LLMs for industrial manufacturing or
-      analyzing weather data for wildfire management, I am passionate about solving real-world problems through
-      statistics and programming.</p>
-
-    <p>Fun facts about me:</p>
-    <ul>
-      <li>I play the violin in the MTSU Concert Orchestra.</li>
-      <li>I volunteer as a Living History Reenactor at Stones River National Battlefield.</li>
-      <li>I love to read!</li>
-    </ul>
-
-
-    <hr>
-    <h2 class="has-text-centered">Education</h2>
-
-    <center><img class="image" src="images/MTSU.png" height="100" width="175"></center>
-    <h3 class="has-text-centered">Data Science, M.S.</h3>
-
-    <p class="has-text-centered">
-      <strong>Anticipated Graduation Date:</strong> <em>December 2025</em> • <strong>GPA:</strong> <em>3.96</em> •
-      <strong>GRE Score:</strong> <em>335</em>
-    </p>
-
-    <h3 class="has-text-centered">Statistics, B.S., with minors in Computer Science and Business Administration</h3>
-
-    <p class="has-text-centered">
-      <strong>Graduation Date:</strong> <em>Spring 2023</em> • <strong>GPA:</strong> <em>4.00</em> •
-      <strong>Academic Honors:</strong> <em>Summa cum laude</em>
-    </p>
-
-    <ul>
-      <li>Presented undergraduate mathematics research in graph theory at the Cumberland Conference on Combinatorics
-        and Computing, the Copenhagen-Jerusalem Combinatorics Seminar, and multiple student conferences</li>
-      <li>Selected for and participated in Summer 2023 Middle Tennessee State University Institute of Leadership
-        Excellence</li>
-      <li>Recognized as Senior Honors Student in the College of Basic and Applied Science Award Ceremony in Spring 2022
-      </li>
-    </ul>
-    <hr>
-
-    <h2 class="has-text-centered">Work Experience</h2>
-
-    <div class="card">
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <img src="images/MTSU.png" alt="MTSU Logo" />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">Machine Learning Student Researcher</p>
-            <p class="subtitle">MTSU Engineering Department (October 2024 - present)</p>
-          </div>
-        </div>
-        <div class="content">
-          <ul>
-            <li>Working with Mechatronics Engineering professor to explore applications of multi-modal LLMs and other
-              artificial intelligence techniques in industrial manufacturing</li>
-            <li>Developing and testing an agentic framework using visual large language models and text-based models for
-              classification of laser displacement signals through a mixture of prompt engineering and finetuning
-            </li>
-            <li>Finetuning large language models using Huggingface Transformers and Pytorch on MTSU's High
-              Performance Computing cluster</li>
-
-          </ul>
-
-
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <img src="images/schneider.jpg" alt="Schneider Electric Logo" />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">Data Analytics / Procurement Intern</p>
-            <p class="subtitle">Schneider Electric Global Supply Chain Management (October 2024 - present)</p>
-          </div>
-        </div>
-        <div class="content">
-          <ul>
-            <li>Supporting the Global Procurement Team in identifying and analyzing impacts of unpaid invoices using
-              SAP, helping to resolve over <em>$200,000</em> in past due invoices with the last 5 months</li>
-            <li>Assisting with developing and tracking supplier sustainability metrics as part of Schneider
-              Electric's
-              ongoing sustainability initiatives</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <img src="images/vanderbilt.png" alt="Vanderbilt University logo" />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">Graduate Research Assistant</p>
-            <p class="subtitle">Vanderbilt University Computer Science / Mechanical Engineering Department, Nashville,
-              Tennessee (January 2024 - May 2024)</p>
-          </div>
-        </div>
-        <div class="content">
-          <ul>
-            <li>Conducted research on Gaussian splatting, inverse kinematics optimization, and physiology data analysis
-              using C# and Unity, exploring possible research advancements in augmented reality</li>
-            <li>Co-authored conference paper on the effects of biometric visualization on autistic individuals' driving
-              confidence and developed a biometric visualization dashboard using Python</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <img src="images/MTSU.png" alt="MTSU logo" />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">Graduate Teaching Assistant</p>
-            <p class="subtitle">Middle Tenneessee State Computer Science Department, Murfreesboro, Tennessee (August
-              2023 - December 2023)</p>
-          </div>
-        </div>
-        <div class="content">
-          <ul>
-            <li>Worked with computer science professor to manage introductory computer science lab section</li>
-            <li>Graded homework assignments, discussed grading results with professor, and hosted office hours for
-              students</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <img src="images/usfs.png" alt="USFS logo" />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">Business and Technology Intern</p>
-            <p class="subtitle">United States Forest Service Federal Pathways Program, Vallejo, California (April 2022 -
-              December 2023)</p>
-          </div>
-        </div>
-        <div class="content">
-          <ul>
-            <li>Designed and implemented Python scripts to parse weather observation data for data analysis and decision
-              making</li>
-            <li>Overhauled and optimized existing tools and Python scripts to be used in novel product applications</li>
-            <li>Created interactive public dashboards in Tableau for fire weather analysis and fire rating risk scoring
-            </li>
-            <li>Worked with Microsoft Power BI, Power Query, Power Automate, and Esri ArcGIS Pro to create fire weather
-              analysis and resource management dashboards</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <br>
-    <hr>
-
-    <h2 class="has-text-centered">Projects</h2>
-
-    <div class="card">
-      <div class="card-image">
-        <figure class="image">
-          <img src="images/llavagraph.jpg" alt="Placeholder image" />
-        </figure>
-      </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <img src="images/MTSU.png" alt="MTSU Logo" />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">LLaVAGraph</p>
-            <p class="subtitle">(October 2024 - present)</p>
-          </div>
-        </div>
-        <div class="content">
-          <ul>
-            <li>LLaVAGraph is an agentic framework designed to explore applications of multi-modal LLMs and
-              other artificial intelligence techniques in industrial manufacturing.</li>
-            <li>Implemented using Huggingface Transformers, Pytorch, LLaVA v1.5, and Llama 3.2 on MTSU's High
-              Performance Computing cluster.</li>
-
-          </ul>
-          <button class="button is-centered is-large has-background-white" style="margin: 10px;"
-            href="https://github.com/greatroboticslab/LlaVAGraph">
-            <span class="icon">
-              <img src="images/github.svg" alt="Github Logo">
-            </span>
-            <a href="https://github.com/greatroboticslab/LlaVAGraph" class="has-text-black">GitHub</a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-image">
-        <figure class="image">
-          <img src="images/vandy-dashboard.jpg" alt="Vanderbilt driving simulator dashboard" />
-        </figure>
-      </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <img src="images/vanderbilt.png" alt="Vanderbilt Logo" />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">Human-Centered Dashboard Design for an Individualized Driving Simulator</p>
-            <p class="subtitle">(August 2023 - February 2024)</p>
-          </div>
-        </div>
-        <div class="content">
-          <ul>
-            <li>This dashboard was designed for a study conducted by the Vanderbilt Robotics and Autonomous System
-              Laboratory, allowing visualization of different driving data collected by their in-house driving
-              simulator.</li>
-            <li>Implemented using Python, Pandas, and Plotly Dash.</li>
-          </ul>
-          <button class="button is-centered is-large has-background-white" style="margin: 10px;"
-            href="https://github.com/VU-RASL/Vanderbilt-Driving-Simulator">
-            <span class="icon">
-              <img src="images/github.svg" alt="Github Logo">
-            </span>
-            <a href="https://github.com/VU-RASL/Vanderbilt-Driving-Simulator" class="has-text-black">GitHub</a>
-          </button>
-          <button class="button is-centered is-large has-background-white" style="margin: 10px;"
-            href="https://link.springer.com/chapter/10.1007/978-3-031-61947-2_10">
-            <span class="icon">
-              <img src="images/paper.svg" alt="Paper">
-            </span>
-            <a href="https://link.springer.com/chapter/10.1007/978-3-031-61947-2_10" class="has-text-black">Paper</a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-image">
-        <figure class="image">
-          <img src="images/arproject.jpg" alt="Augmented Reality avatar project" />
-        </figure>
-      </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <img src="images/vanderbilt.png" alt="Vanderbilt Logo" />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">Improving Augmented Reality Pose Redirection Using Potential Functions and Gradient
-              Descent</p>
-            <p class="subtitle">(March 2024 - May 2024)</p>
-          </div>
-        </div>
-        <div class="content">
-          <ul>
-            <li>Pose redirection is a significant problem with augmented reality avatars; my project studied ways to
-              optimize the pose mimicry process using machine learning.</li>
-            <li>Implemented using C#, Unity, and Microsoft Mixed Reality Toolkit. Deployed on the Hololens 2.</li>
-          </ul>
-          <button class="button is-centered is-large has-background-white" style="margin: 10px;"
-            href="https://github.com/VU-RASL/InverseKinematicsOptimization">
-            <span class="icon">
-              <img src="images/github.svg" alt="Github Logo">
-            </span>
-            <a href="https://github.com/VU-RASL/InverseKinematicsOptimization" class="has-text-black">GitHub</a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-image">
-        <figure class="image">
-          <img src="images/mapQuery.jpg" alt="Weather database dashboard" />
-        </figure>
-      </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <img src="images/MTSU.png" alt="Vanderbilt Logo" />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">Weather Database Dashboard Project</p>
-            <p class="subtitle">(August 2023 - December 2023)</p>
-          </div>
-        </div>
-        <div class="content">
-          <ul>
-            <li>In this project, we created a full-stack weather data storage app supporting graphing, mapping, and
-              spatial queries.</li>
-            <li>Implemented using Oracle MySQL, Python, and Flask.</li>
-          </ul>
-          <button class="button is-centered is-large has-background-white" style="margin: 10px;"
-            href="https://github.com/IMOsbo/Weather-Database-Project">
-            <span class="icon">
-              <img src="images/github.svg" alt="Github Logo">
-            </span>
-            <a href="https://github.com/IMOsbo/Weather-Database-Project" class="has-text-black">GitHub</a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-image">
-        <figure class="image">
-          <img src="images/pal.jpg" alt="PAL dashboard" />
-        </figure>
-      </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <img src="images/usfs.png" alt="Vanderbilt Logo" />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">Project Activity Level (PAL) and Industrial Fire Precaution Activity Level (IFPAL) -
-              California Dashboard</p>
-            <p class="subtitle">(June 2023 - August 2023)</p>
-          </div>
-        </div>
-        <div class="content">
-          <ul>
-            <li>Main developer for both PAL dashboard and data collection backend.</li>
-            <li>Implemented using Tableau, Python, and Pandas.</li>
-          </ul>
-          <button class="button is-centered is-large has-background-white" style="margin: 10px;"
-            href="https://publicdashboards.dl.usda.gov/t/NRE_PUB/views/ProjectActivityLevelPALandIndustrialFirePrecautionActivityLevelIFPAL-California_Web/PALDashboard?%3Aembed=y&%3Aiid=8&%3AisGuestRedirectFromVizportal=y">
-            <span class="icon">
-              <img src="images/graph.svg" alt="Graph">
-            </span>
-            <a href="https://publicdashboards.dl.usda.gov/t/NRE_PUB/views/ProjectActivityLevelPALandIndustrialFirePrecautionActivityLevelIFPAL-California_Web/PALDashboard?%3Aembed=y&%3Aiid=8&%3AisGuestRedirectFromVizportal=y"
-              class="has-text-black">Dashboard</a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-image">
-        <figure class="image">
-          <img src="images/invertibility.jpg" alt="invertibility presentation" />
-        </figure>
-      </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <img src="images/MTSU.png" alt="MTSU Logo" />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-4">Sign Invertibility for Graphs - Mathematics Research</p>
-            <p class="subtitle">(January 2022 - May 2023)</p>
-          </div>
-        </div>
-        <div class="content">
-          <ul>
-            <li>Researched new applications of sign invertibility for various families of graphs.</li>
-            <li>Presented research at <a href="https://www.mtsu.edu/cumberland2023/">the 2023 Cumberland Conference on
-                Combinatorics and Computing</a>, the Copenhagen-Jerusalem Combinatorics Seminar, <a
-                href="https://mtsunews.com/stem-undergrads-posters-capitol-2023/">2023 MTSU Posters at the Capital</a>,
-              and MTSU Scholar's Week.</li>
-          </ul>
-          <button class="button is-centered is-large has-background-white" style="margin: 10px;"
-            href="https://www.youtube.com/watch?v=jkcv21Gunec">
-            <span class="icon">
-              <img src="images/youtube.svg" alt="youtube">
-            </span>
-            <a href="https://www.youtube.com/watch?v=jkcv21Gunec" class="has-text-black">Presentation</a>
-          </button>
-          <button class="button is-centered is-large has-background-white" style="margin: 10px;"
-            href="https://arxiv.org/pdf/2303.12774">
-            <span class="icon">
-              <img src="images/paper.svg" alt="Paper">
-            </span>
-            <a href="https://arxiv.org/pdf/2303.12774" class="has-text-black">Paper</a>
-          </button>
-
-        </div>
-      </div>
-    </div>
-
-
-  </section>
-
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        Styled with <a href="https://github.com/jgthms/bulma">Bulma</a>.
-        <br>
-        All logos belong to their original institutions and came from their media kits.
-        <br>
-        IMOsbo, 2025. <a href="https://goblueraiders.com">#GoBlueRaiders</a>
+      <!-- Add a short description about yourself or your brand -->
+      <p>As a current Data Science master's student at Middle Tennessee State University, I love exploring and
+        solving problems through statistics and programming. Whether it's finetuning LLMs for industrial manufacturing
+        or
+        analyzing weather data for wildfire management, I am passionate about solving real-world problems through
+        statistics and
+        programming.
       </p>
+
+      <h2>Find me online!</h2>
+
+      <div class="button-stack" role="navigation">
+        <a class="button button-github" style="background-color: black ; border-color: white;"
+          href="https://www.github.com/@IMOsbo" target="_blank" rel="noopener" role="button"><img class="icon"
+            aria-hidden="true" src="images/icons/github.svg" alt="GitHub Logo">GitHub</a>
+        <a class="button button-github" style="background-color: black ;"
+          href="https://www.linkedin.com/in/isaiah-osborne" target="_blank" rel="noopener" role="button"><img
+            class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
+        <a class="button button-default" style="background-color: black ;" href="#" target="_blank" rel="noopener"
+          role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-code.svg"
+            alt="Code Icon">Projects</a>
+      </div>
+
+      <footer>
+        @IMOsbo, 2025 | Built with <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink </a>
+      </footer>
+
     </div>
-  </footer>
+  </div>
 
 </body>
 
